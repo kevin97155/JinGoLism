@@ -6,22 +6,19 @@ a {
   color: black;
 }
 h1 {
-  font-size: 45px;
+  font-size: 20px;
   text-align: center;
 }
 ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 li{
-  background-color: yellow;
-  border-width: 5px;
-  border-color: blue;
-  border-style: solid;
   text-align: center;
+  background-color: #F5F6CE;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
 }
 p{
   font-size: 30px;
@@ -29,15 +26,20 @@ p{
   /* Smartphones */
 
   @media only screen
-  and (max-width : 320px)
+  and (min-width : 320px)
   {
-
-  }
-
-  /* Desktops */
-
-  @media only screen
-  and (min-width : 1201px)
-  {
-
+    h1{
+      font-size:45px;
+    }
+    ul{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      list-style: none;
+    }
+    li{
+      background-color: #F5F6CE;
+      border-width: 5px;
+      border-color: blue;
+      border-style: solid;
+    }
   }
