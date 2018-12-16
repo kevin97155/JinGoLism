@@ -1,3 +1,6 @@
+body{
+  background-image: url(sea.jpg);
+}
 a {
   color: green;
   text-decoration: none;
