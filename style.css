@@ -22,8 +22,8 @@ li{
   border-width: 1px;
   border-color: gray;
   border-style: solid;
-  padding-top:15px;
-  padding-bottom:15px;
+  display: grid;
+  grid-template-row: 15px 15px 15px 15px;
 }
 p{
   font-size: 30px;
